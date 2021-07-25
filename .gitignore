@@ -2,3 +2,4 @@ images/*
 .DS_Store
 example_torch/*
 early/*
+example_torch/*
