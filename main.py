@@ -47,8 +47,6 @@ loss = nn.CrossEntropyLoss()
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.1, mode='min', patience=3, min_lr=0.00000001, threshold_mode='abs', threshold=1e-2, verbose=True)
 
 num_epochs = 100
-# model = train(model, num_epochs, optimizer, loss, trainloader, validloader, device, scheduler=scheduler)
-model.load_state_dict(torch.load('terry_net.pt'))
-model.to(device)
+model = train(model, num_epochs, optimizer, loss, trainloader, validloader, device, scheduler=scheduler)
 test_loss = nn.CrossEntropyLoss()
 test(model, testloader, test_loss, device)
