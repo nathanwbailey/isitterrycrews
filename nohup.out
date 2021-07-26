@@ -1,0 +1,83 @@
+train
+1320
+train
+1320
+valid
+440
+test
+440
+Training Started
+Epoch: 1, Training Loss: 0.530133, Training Accuracy: 0.7636, Validation Loss: 0.453741, Validation Accuracy: 0.8023
+Validation loss decreased (inf --> 0.453741).  Saving model ...
+Epoch: 2, Training Loss: 0.316102, Training Accuracy: 0.8818, Validation Loss: 0.333977, Validation Accuracy: 0.8841
+Validation loss decreased (0.453741 --> 0.333977).  Saving model ...
+Epoch: 3, Training Loss: 0.243133, Training Accuracy: 0.9061, Validation Loss: 0.286217, Validation Accuracy: 0.8886
+Validation loss decreased (0.333977 --> 0.286217).  Saving model ...
+Epoch: 4, Training Loss: 0.199126, Training Accuracy: 0.9265, Validation Loss: 0.250726, Validation Accuracy: 0.8977
+Validation loss decreased (0.286217 --> 0.250726).  Saving model ...
+Epoch: 5, Training Loss: 0.163101, Training Accuracy: 0.9470, Validation Loss: 0.244326, Validation Accuracy: 0.9091
+Validation loss decreased (0.250726 --> 0.244326).  Saving model ...
+Epoch: 6, Training Loss: 0.140344, Training Accuracy: 0.9545, Validation Loss: 0.231250, Validation Accuracy: 0.9159
+Validation loss decreased (0.244326 --> 0.231250).  Saving model ...
+Epoch: 7, Training Loss: 0.116018, Training Accuracy: 0.9689, Validation Loss: 0.223057, Validation Accuracy: 0.9273
+Validation loss decreased (0.231250 --> 0.223057).  Saving model ...
+Epoch: 8, Training Loss: 0.099165, Training Accuracy: 0.9780, Validation Loss: 0.218239, Validation Accuracy: 0.9318
+Validation loss decreased (0.223057 --> 0.218239).  Saving model ...
+Epoch: 9, Training Loss: 0.083901, Training Accuracy: 0.9856, Validation Loss: 0.195074, Validation Accuracy: 0.9364
+Validation loss decreased (0.218239 --> 0.195074).  Saving model ...
+Epoch: 10, Training Loss: 0.070145, Training Accuracy: 0.9894, Validation Loss: 0.194089, Validation Accuracy: 0.9318
+Validation loss decreased (0.195074 --> 0.194089).  Saving model ...
+Epoch: 11, Training Loss: 0.059931, Training Accuracy: 0.9871, Validation Loss: 0.191907, Validation Accuracy: 0.9386
+Validation loss decreased (0.194089 --> 0.191907).  Saving model ...
+Epoch: 12, Training Loss: 0.051485, Training Accuracy: 0.9924, Validation Loss: 0.174530, Validation Accuracy: 0.9386
+Validation loss decreased (0.191907 --> 0.174530).  Saving model ...
+Epoch: 13, Training Loss: 0.045360, Training Accuracy: 0.9939, Validation Loss: 0.180505, Validation Accuracy: 0.9364
+EarlyStopping counter: 1 out of 10
+Epoch: 14, Training Loss: 0.038909, Training Accuracy: 0.9962, Validation Loss: 0.171207, Validation Accuracy: 0.9386
+Validation loss decreased (0.174530 --> 0.171207).  Saving model ...
+Epoch: 15, Training Loss: 0.034420, Training Accuracy: 0.9962, Validation Loss: 0.168245, Validation Accuracy: 0.9432
+Validation loss decreased (0.171207 --> 0.168245).  Saving model ...
+Epoch: 16, Training Loss: 0.029781, Training Accuracy: 0.9962, Validation Loss: 0.164508, Validation Accuracy: 0.9386
+Validation loss decreased (0.168245 --> 0.164508).  Saving model ...
+Epoch: 17, Training Loss: 0.028525, Training Accuracy: 0.9970, Validation Loss: 0.165802, Validation Accuracy: 0.9432
+EarlyStopping counter: 1 out of 10
+Epoch: 18, Training Loss: 0.024745, Training Accuracy: 0.9962, Validation Loss: 0.162537, Validation Accuracy: 0.9409
+Validation loss decreased (0.164508 --> 0.162537).  Saving model ...
+Epoch: 19, Training Loss: 0.022386, Training Accuracy: 0.9977, Validation Loss: 0.169156, Validation Accuracy: 0.9409
+EarlyStopping counter: 1 out of 10
+Epoch: 20, Training Loss: 0.019715, Training Accuracy: 0.9977, Validation Loss: 0.168521, Validation Accuracy: 0.9477
+Epoch    20: reducing learning rate of group 0 to 1.0000e-04.
+EarlyStopping counter: 2 out of 10
+Epoch: 21, Training Loss: 0.017228, Training Accuracy: 0.9985, Validation Loss: 0.168318, Validation Accuracy: 0.9477
+EarlyStopping counter: 3 out of 10
+Epoch: 22, Training Loss: 0.017444, Training Accuracy: 0.9985, Validation Loss: 0.167422, Validation Accuracy: 0.9477
+EarlyStopping counter: 4 out of 10
+Epoch: 23, Training Loss: 0.017823, Training Accuracy: 0.9977, Validation Loss: 0.167127, Validation Accuracy: 0.9477
+EarlyStopping counter: 5 out of 10
+Epoch: 24, Training Loss: 0.017367, Training Accuracy: 0.9977, Validation Loss: 0.166472, Validation Accuracy: 0.9477
+Epoch    24: reducing learning rate of group 0 to 1.0000e-05.
+EarlyStopping counter: 6 out of 10
+Epoch: 25, Training Loss: 0.016851, Training Accuracy: 0.9985, Validation Loss: 0.165798, Validation Accuracy: 0.9477
+EarlyStopping counter: 7 out of 10
+Epoch: 26, Training Loss: 0.017384, Training Accuracy: 0.9985, Validation Loss: 0.165278, Validation Accuracy: 0.9477
+EarlyStopping counter: 8 out of 10
+Epoch: 27, Training Loss: 0.016313, Training Accuracy: 0.9977, Validation Loss: 0.164900, Validation Accuracy: 0.9477
+EarlyStopping counter: 9 out of 10
+/dcs/17/u1719531/.local/lib/python3.6/site-packages/PIL/Image.py:974: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  "Palette images with Transparency expressed in bytes should be "
+Epoch: 28, Training Loss: 0.016923, Training Accuracy: 0.9985, Validation Loss: 0.164650, Validation Accuracy: 0.9477
+Epoch    28: reducing learning rate of group 0 to 1.0000e-06.
+EarlyStopping counter: 10 out of 10
+Early Stopping at Epoch: 28
+Traceback (most recent call last):
+  File "main.py", line 50, in <module>
+    model = train(model, num_epochs, optimizer, loss, trainloader, validloader, device, scheduler=scheduler)
+  File "/dcs/17/u1719531/project/train.py", line 76, in train
+    model.load_state_dict(torch.load(path_to_model))
+  File "/dcs/17/u1719531/.local/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/dcs/17/u1719531/.local/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/dcs/17/u1719531/.local/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'terry_net'
