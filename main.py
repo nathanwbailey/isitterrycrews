@@ -6,7 +6,7 @@ from torch import optim, nn
 import numpy as np
 from dataset import *
 from network_mobile import *
-from train import *
+from train_test import *
 import sys
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
@@ -28,7 +28,10 @@ for idx, batch in enumerate(trainloader):
 mean = (mean/len(trainloader)).to('cpu')
 std = (std/len(trainloader)).to('cpu')
 
-transforms = torchvision.transforms.Compose([torchvision.transforms.Resize((224,224)), torchvision.transforms.ToTensor(), torchvision.transforms.Normalize(mean, std)])
+print(mean)
+print(std)
+
+transforms = torchvision.transforms.Compose([torchvision.transforms.RandomRotation(30), torchvision.transforms.ColorJitter(brightness=2.3), torchvision.transforms.Resize((224,224)), torchvision.transforms.ToTensor(), torchvision.transforms.Normalize(mean, std)])
 
 train_dataset = terry_dataset('images/', dataset_type='train', data_transforms=transforms)
 trainloader = torch.utils.data.DataLoader(train_dataset, batch_size=32, shuffle=False, pin_memory=True)
@@ -41,7 +44,7 @@ testloader = torch.utils.data.DataLoader(test_dataset, batch_size=32, shuffle=Fa
 
 
 model = terry_crews_network().to(device)
-optimizer = optim.SGD(filter(lambda param: param.requires_grad, model.parameters()), lr=0.001, momentum=0.9, weight_decay=5e-4)
+optimizer = optim.SGD(filter(lambda param: param.requires_grad, model.parameters()), lr=0.001, momentum=0.9, weight_decay=5e-2)
 loss = nn.CrossEntropyLoss()
 
 scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, factor=0.1, mode='min', patience=3, min_lr=0.00000001, threshold_mode='abs', threshold=1e-2, verbose=True)
