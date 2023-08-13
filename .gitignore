@@ -3,6 +3,4 @@ images/*
 example_torch/*
 early/*
 example_torch/*
-terry_net.pt
-full_model.tar
-model.pth
+
