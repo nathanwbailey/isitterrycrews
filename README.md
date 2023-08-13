@@ -3,7 +3,7 @@ A silly project I made
 
 Website where you input an image, it will tell you if it is terry crew or not
 
-##To Run:
+## To Run:
 
 Clone Repo
 
