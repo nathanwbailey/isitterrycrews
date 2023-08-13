@@ -1,7 +1,7 @@
 # isitterrycrews.com
 A silly project I made
 
-Website where you input an image, it will tell you if it is terry crew or not
+A website where you input an image, will tell you if it is terry crews or not
 
 ## To Run:
 
@@ -15,4 +15,4 @@ Clone Repo
 
 `flask run`
 
-Local paths will need to be changed in source code
+Local paths will need to be changed in the source code
